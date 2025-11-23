@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyoro Edge - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Kyoro Edge</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>My Games & Projects</h2>
+
+        <div class="portfolio-grid">
+            <div class="project-card" data-description="Unity/C# project with engaging gameplay mechanics.">
+                <img src="images/game1.png" alt="Game 1 Screenshot">
+                <h3>Game Title 1</h3>
+                <p>Unity/C# project with engaging gameplay mechanics.</p>
+                <a href="#">Play/Download</a>
+            </div>
+
+            <div class="project-card" data-description="Unreal Engine/C++ project exploring immersive storytelling.">
+                <img src="images/game2.png" alt="Game 2 Screenshot">
+                <h3>Game Title 2</h3>
+                <p>Unreal Engine/C++ project exploring immersive storytelling.</p>
+                <a href="#">Play/Download</a>
+            </div>
+
+            <div class="project-card" data-description="Experimental game prototype focusing on AI-driven gameplay.">
+                <img src="images/game3.png" alt="Game 3 Screenshot">
+                <h3>Game Title 3</h3>
+                <p>Experimental game prototype focusing on AI-driven gameplay.</p>
+                <a href="#">Play/Download</a>
+            </div>
+        </div>
+
+        <!-- Optional modal for JS interactivity -->
+        <div id="modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; 
+            background: rgba(0,0,0,0.8); justify-content:center; align-items:center;">
+            <div style="background:#111; padding:20px; border:2px solid #ff4500; border-radius:10px; max-width:500px; text-align:center;">
+                <span id="modal-close" style="cursor:pointer; float:right; font-size:1.2em;">&times;</span>
+                <h3 id="modal-title"></h3>
+                <p id="modal-desc"></p>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Kyoro Edge. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

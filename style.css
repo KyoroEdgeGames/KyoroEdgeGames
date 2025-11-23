@@ -1,0 +1,31 @@
+/* Project card image hover animation */
+.project-card img {
+    width: 100%;
+    display: block;
+    transition: transform 0.4s ease, filter 0.4s ease;
+    border-bottom: 2px solid #ff4500;
+}
+
+/* On hover, slightly zoom and brighten the image */
+.project-card:hover img {
+    transform: scale(1.08);
+    filter: brightness(1.2);
+}
+
+/* Optional: subtle tilt on hover for a more dynamic feel */
+.project-card:hover {
+    transform: scale(1.05) rotateZ(1deg);
+    box-shadow: 0 0 20px #ff4500;
+}
+
+/* Add smooth transition for text and link */
+.project-card h3, .project-card p, .project-card a {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Text moves slightly up on hover */
+.project-card:hover h3,
+.project-card:hover p,
+.project-card:hover a {
+    transform: translateY(-5px);
+}
