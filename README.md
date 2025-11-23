@@ -1,11 +1,12 @@
 Kyoro Edge Portfolio
 
 Welcome to my game development portfolio! This repository contains the HTML, CSS, and JavaScript 
-for my personal portfolio website, where I showcase my games and projects.
+for my personal portfolio website, where I showcase my games and projects. I originally created 
+all the code using Notepad++.
 
 About Me:
-Hello, I'm Kyoro Edge, a passionate game developer. This portfolio demonstrates my work and 
-is made public to give others ideas for HTML, CSS, and JavaScript.
+Hello, I'm Erebus Cairo, the Owner of Kyoro Edge and a student Game Development Major. This 
+portfolio demonstrates my work and is made public to give others ideas for HTML, CSS, and JavaScript.
 
 Important Notice:
 The design, code, and concept of this website are my original work. This repository is public 
